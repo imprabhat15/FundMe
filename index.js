@@ -87,15 +87,18 @@ counters.forEach(counter => {
 const logo = document.querySelector('#topnav')
 
 const getOffset = () => {
-  if(window.pageYOffset > 100){
-     logo.style.backgroundColor = 'rgba(0,0,0,0.7)'
-     logo.style.transition = 'background .5s ease-out'
+  if(window.pageYOffset > 150){
+    //  logo.style.backgroundColor = 'rgba(0,0,0,0.7)'
+     logo.style.backgroundColor = 'rgba(0,0,0)'
+     logo.style.transition = 'all .6s ease-out'
      logo.style.boxShadow = '0px 1px 4px black'
+	 logo.style.padding = '2px 0px'
   }
-  if(window.pageYOffset < 100){
+  if(window.pageYOffset < 150){
      logo.style.backgroundColor = 'rgba(0,0,0,0)'
-     logo.style.transition = 'background .5s ease-out'
+     logo.style.transition = 'all .6s ease-out'
      logo.style.boxShadow = 'none' 
+	 logo.style.padding = '30px 10px'
   }
 }
 
