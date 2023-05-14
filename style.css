@@ -729,14 +729,18 @@ text-align: center;
 	transform: scale(1.1);
 	filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.2));
   }
-  .tabs > .tabs-content .login_socnet .fa-vk {
-	color: #7986CB;
+  .tabs > .tabs-content .login_socnet .fa-linkedin {
+	color: #0072b1;
   }
-  .tabs > .tabs-content .login_socnet .fa-google-plus {
-	color: #E57373;
+  .tabs > .tabs-content .login_socnet .fa-google {
+		background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		-webkit-text-fill-color: transparent;
   }
-  .tabs > .tabs-content .login_socnet .fa-facebook {
-	color: #5C6BC0;
+  .tabs > .tabs-content .login_socnet .fa-twitter {
+	color: #00acee ;
   }
   .tabs > .tabs-content form {
 	display: -webkit-flex;
