@@ -366,7 +366,7 @@ text-align: center;
 	 margin: 0 auto;
 	 overflow:hidden;
 	 font-family: 'Roboto', sans-serif;
-	 background: lightskyblue;
+	 background: rgb(4, 170, 109);
 	
 	 /* Push to bottom */
 	 display: flex;
@@ -384,7 +384,7 @@ text-align: center;
  .counters {
 	 background: white;
 	 color: #fff;
-	 padding: 50px 30px;
+	 padding: 50px 2px;
 	 
  }
  
@@ -397,6 +397,7 @@ text-align: center;
  
  .counters i {
 	 color: white;
+	 margin-top: 15px;
 	 margin-bottom: 5px;
 	 display: content;
  }
