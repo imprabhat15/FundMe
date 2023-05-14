@@ -205,7 +205,7 @@ font-weight: 600;
 	display:flex;
 	flex-direction: column;
 	flex:wrap;
-	font-size: 6rem;
+	font-size: 5rem;
 	align-items: center;
 	justify-content: center;
  }
@@ -219,7 +219,7 @@ font-weight: 600;
 
 .heading {
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 .box-container .box h3{
 	font-weight: 600;
@@ -348,7 +348,7 @@ font-weight: 600;
         #0196e3
  */
  .containerr  h2{
-	 font-size:6rem;
+	 font-size:5rem;
  
 	 
    
